@@ -1,0 +1,306 @@
+[33mcommit ea8874165fcb382ab6037d8a14af347cfbb21b97[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Anuj <anuj.khati6@gmail.com>
+Date:   Mon May 5 21:29:20 2025 +0530
+
+    First commit as part of HTML Upskilling
+
+[1mdiff --git a/12+Rules+to+Learn+to+Code+[2nd+Edition]+2022.pdf b/12+Rules+to+Learn+to+Code+[2nd+Edition]+2022.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..611ff1c[m
+[1m--- /dev/null[m
+[1m+++ b/12+Rules+to+Learn+to+Code+[2nd+Edition]+2022.pdf[m
+[36m@@ -0,0 +1,1039 @@[m
+[32m+[m[32m      ![m
+[32m+[m[32mNEW[m
+[32m+[m
+[32m+[m[32m     12 Rules to[m
+[32m+[m[32m   Learn to Code[m
+[32m+[m
+[32m+[m[32m             After teaching a million students, here are the[m
+[32m+[m[32m                      best ways to learn programming[m
+[32m+[m
+[32m+[m[32m                             Dr. Angela Yu[m
+[32m+[m
+[32m+[m[32m                                      Senior Developer &[m
+[32m+[m[32m                            Lead Instructor at The App Brewery[m
+[32m+[m
+[32m+[m[32m                                            A Publication of[m
+[32m+[m[32mTable of[m
+[32m+[m[32mContents[m
+[32m+[m
+[32m+[m[32mTrick Your Brain with the 20 minute Rule[m
+[32m+[m[32mCode for a Purpose[m
+[32m+[m[32mThere is No “Perfect” Language to Learn[m
+[32m+[m[32mUnderstand What You’re Writing[m
+[32m+[m[32mIt’s Ok to Not Know[m
+[32m+[m[32mBe a Copycat[m
+[32m+[m[32mBe Accountable[m
+[32m+[m[32mKeep Learning[m
+[32m+[m[32mPlay Foosball[m
+[32m+[m[32mGet a Mentor[m
+[32m+[m[32mGet into the Habit of Chunking[m
+[32m+[m[32mBreak someone else's code[m
+[32m+[m
+[32m+[m[32m                                                                                                2[m
+[32m+[m[32m       1[m
+[32m+[m
+[32m+[m[32m                    RULE ONE[m
+[32m+[m
+[32m+[m[32m Trick Your Brain[m
+[32m+[m[32mwith the 20 minute[m
+[32m+[m
+[32m+[m[32m         Rule[m
+[32m+[m[32m                                                                               www.appbrewery.com[m
+[32m+[m
+[32m+[m[32mLearning to code is a bit like[m
+[32m+[m[32m        going to the gym.[m
+[32m+[m
+[32m+[m[32mEven if you max out and spend a whole weekend at the[m
+[32m+[m[32mgym, you will not see a visible difference in your body. The[m
+[32m+[m[32mmore regularly you learn to code, the more likely it is that[m
+[32m+[m[32myou’ll start seeing your ripped coding muscles. ������ (The[m
+[32m+[m[32mirony is not lost on me).[m
+[32m+[m
+[32m+[m[32mBut the problem is where do you find the time? Between[m
+[32m+[m[32mworking your full-time job, spending time with your family[m
+[32m+[m[32mand life admin, when are you supposed to sit down and[m
+[32m+[m[32mpractice this “daily coding”?[m
+[32m+[m
+[32m+[m[32mWhile I was working as a doctor, I spent about 12 hours at[m
+[32m+[m[32mthe hospital, 1-hour commuting and approximately 2 hours[m
+[32m+[m[32mon general life-sustaining stuff, such as eating. So that left[m
+[32m+[m[32mme with only 9 hours remaining in my day. Theoretically, 2[m
+[32m+[m[32mhours could be allocated to coding practice and 7 hours on[m
+[32m+[m[32msleep. But there is nothing more difficult than trying to[m
+[32m+[m[32mconvince your work-saturated brain to sit down and learn[m
+[32m+[m[32mwhen you could be watching Game of Thrones with a tub of[m
+[32m+[m[32mice cream.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery                                                                        4[m
+[32m+[m[32m                             www.appbrewery.com[m
+[32m+[m
+[32m+[m[32mLBeuat thrennI fionundga to trick. code is a bit like[m
+[32m+[m[32m going to the gym. As humans, we have a lot of inertia. This can be bad for us -[m
+[32m+[m
+[32m+[m[32m   I’m looking at you, “24” box set. However, we can also turn[m
+[32m+[m[32m   it to our advantage. I found that once I started coding and[m
+[32m+[m[32m   making things, I got so absorbed into the project that I no[m
+[32m+[m[32m   longer cared about TV, food or sleep. There were quite a[m
+[32m+[m[32m   few weekends when I coded until sunrise.[m
+[32m+[m
+[32m+[m[32m   So how do we take advantage of this inertia?[m
+[32m+[m
+[32m+[m[32m   First, you must understand that task-switching is very[m
+[32m+[m[32m   difficult. It requires a lot of motivation. If as soon as you[m
+[32m+[m[32m   get home, you slump on the sofa and switch on the TV,[m
+[32m+[m[32m   you’ve already lost that evening. This is because the[m
+[32m+[m[32m   amount of motivation required to task-switch and do[m
+[32m+[m[32m   something not driven by evolution like eating or sleeping is[m
+[32m+[m[32m   a Herculean task.[m
+[32m+[m
+[32m+[m[32m   This is why the moment you enter the door and change to a[m
+[32m+[m[32m   new environment is the most crucial. If at this moment,[m
+[32m+[m[32m   you tell yourself that you are just going to do 20 minutes of[m
+[32m+[m[32m   coding practice, you will most likely succeed and use your[m
+[32m+[m[32m   inertia to end up learning for an hour or more. No brain[m
+[32m+[m[32m   will perceive a 20-minute task as a lot of effort and you end[m
+[32m+[m[32m   up tricking your brain to take advantage of your evening.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery                                                       5[m
+[32m+[m[32m                                                                               www.appbrewery.com[m
+[32m+[m
+[32m+[m[32mLearning to code is a bit like The next step is to develop a habit. Research suggests that[m
+[32m+[m[32m   to develop a new habit, you have to carry out the task daily[m
+[32m+[m[32m going to the gym. for a month. I’ve used this next trick for loads of different[m
+[32m+[m[32m   things, from exercising to coding, it invariably works like a[m
+[32m+[m[32m   charm. To preface this trick, I want you to imagine a wall[m
+[32m+[m[32m   with five paintings hanging on it, four of which are[m
+[32m+[m[32m   perfectly aligned, perfectly horizontal, but one is crooked.[m
+[32m+[m
+[32m+[m[32m   Now really imagine it, is there a part of you that wants to[m
+[32m+[m[32m   fix it?[m
+[32m+[m
+[32m+[m[32m   Now let’s imagine a monthly calendar with boxes[m
+[32m+[m[32m   representing individual days. If you nurture that new habit[m
+[32m+[m[32m   on a particular day, then you make a line through that day.[m
+[32m+[m[32m   If you continue your streak the next day then you extend[m
+[32m+[m[32m   that line and so forth. There is something about not[m
+[32m+[m[32m   breaking a continuous line that motivates most people to[m
+[32m+[m[32m   continue to develop a habit. As strange as it sounds, there[m
+[32m+[m[32m   are many times when I would have given up, but was[m
+[32m+[m[32m   compelled to continue because of a long, continuous line.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery                                                                        6[m
+[32m+[m[32m      2[m
+[32m+[m
+[32m+[m[32m                    RULE TWO[m
+[32m+[m
+[32m+[m[32mCode for a Purpose[m
+[32m+[m[32m                                                                                www.appbrewery.com[m
+[32m+[m
+[32m+[m[32mWhen I first started learning[m
+[32m+[m[32m            how to code,[m
+[32m+[m
+[32m+[m[32mthere were countless times when I picked it up then gave[m
+[32m+[m[32mup, again and again. This is a common story amongst[m
+[32m+[m[32mself-taught coders. Looking back, after teaching so many[m
+[32m+[m[32mstudents, I finally realise what’s going on. A lot of[m
+[32m+[m[32mbeginners start learning to code by picking an arbitrary[m
+[32m+[m[32mlanguage and following along with a bunch of tutorials.[m
+[32m+[m[32mCopying code, line by line, sometimes writing code to work[m
+[32m+[m[32mout prime numbers, other times to find all the even[m
+[32m+[m[32mnumbers.[m
+[32m+[m
+[32m+[m[32mBut you know what? I can find prime numbers a lot faster[m
+[32m+[m[32mby Googling for it and picking out even numbers is not all[m
+[32m+[m[32mthat interesting.[m
+[32m+[m
+[32m+[m[32mHere’s the truth. If you are learning to code for the sake of[m
+[32m+[m[32mlearning to code, it’ll be pretty difficult for you to get good[m
+[32m+[m[32mat it. Skills that require a lot of time to hone, like[m
+[32m+[m[32mprogramming, will eat into your pool of internal[m
+[32m+[m[32mmotivation. Something from within that makes you forget[m
+[32m+[m[32mto eat and sleep. I can honestly say that coding on my own[m
+[32m+[m[32mprojects is one of the most enjoyable things I do.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery                                      8[m
+[32m+[m[32m                                                                               www.appbrewery.com[m
+[32m+[m
+[32m+[m[32m   It combines logical thinking with creativity, and at the end,[m
+[32m+[m
+[32m+[m[32mLearning to code is a bit like you will have made something. In most cases, something[m
+[32m+[m[32m   that the world has never seen. Something that could make[m
+[32m+[m[32m going to the gym. your life easier or more enjoyable. Something that could[m
+[32m+[m[32m   make loads of people's lives easier and more enjoyable. It’s[m
+[32m+[m[32m   like making a crazy-beautiful custom motorbike in your[m
+[32m+[m[32m   garage, without needing the garage or spending a cent on[m
+[32m+[m[32m   the components.[m
+[32m+[m
+[32m+[m[32m   This is what motivates most people. The creating part. The[m
+[32m+[m[32m   making part. So I urge you to start learning to code by[m
+[32m+[m[32m   following a tutorial that makes something, anything.[m
+[32m+[m
+[32m+[m[32m   Of course, it’s unlikely that at the beginning, you'll be able[m
+[32m+[m[32m   to code up Clash of Clans or League of Legends. But you’ll[m
+[32m+[m[32m   be able to make something interesting. It could be a dice[m
+[32m+[m[32m   game or a flash-card app. But as long at the end of the[m
+[32m+[m[32m   tutorial, you’ll have made something you can use and play[m
+[32m+[m[32m   with, then you’ll be far more motivated to code to the end.[m
+[32m+[m
+[32m+[m[32m   During all our courses, we always tell our students to think[m
+[32m+[m[32m   up a simple app that they want to make. Something that[m
+[32m+[m[32m   uses the skills that they’ve learned during the course but[m
+[32m+[m[32m   will also stretch them a little because they have to find out[m
+[32m+[m[32m   how to include some new functionality.[m
+[32m+[m
+[32m+[m[32m   We had a student who went on to make an app that wakes[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery                                                                        9[m
+[32m+[m[32m                                                                               www.appbrewery.com[m
+[32m+[m
+[32m+[m[32m   them up a minute earlier every day to ease the transition to[m
+[32m+[m
+[32m+[m[32mLearning to code is a bit like an earlier waking time. There’s a student who made a[m
+[32m+[m[32m   custom slideshow app as a mother’s day present. Someone[m
+[32m+[m[32m going to the gym. else made an app that is a timer for making perfect steaks[m
+[32m+[m[32m   based on their weight and thickness.[m
+[32m+[m
+[32m+[m[32m   There are no limits on your imagination. It will be difficult[m
+[32m+[m[32m   when you start working on your own app because there are[m
+[32m+[m[32m   no step-by-step instructions, but it will also bring about the[m
+[32m+[m[32m   biggest improvement in your coding ability.[m
+[32m+[m
+[32m+[m[32m“ You don’t hire for skills, you    “[m
+[32m+[m[32m        hire for attitude. You can[m
+[32m+[m[32m        always teach skills.[m
+[32m+[m
+[32m+[m[32m            Simon Sinek[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery            10[m
+[32m+[m[32m       3[m
+[32m+[m
+[32m+[m[32m                     RULE THREE[m
+[32m+[m
+[32m+[m[32mThere is No “Perfect”[m
+[32m+[m[32m Language to Learn[m
+[32m+[m[32m                                                                           www.appbrewery.com[m
+[32m+[m
+[32m+[m[32mWhenever I do large talks,[m
+[32m+[m
+[32m+[m[32mthere will always be one person who asks me “which[m
+[32m+[m[32mprogramming language should I start learning first”?[m
+[32m+[m
+[32m+[m[32mThere is this common perception that somewhere out there[m
+[32m+[m[32mlies a perfect language for beginner programmers. Some[m
+[32m+[m[32margue it’s Python, some say it’s Javascript.[m
+[32m+[m
+[32m+[m[32mBut I say they’re all wrong.[m
+[32m+[m
+[32m+[m[32mA programming language is simply a tool. It is no different[m
+[32m+[m[32mfrom any other tool in your hardware box. If you want to[m
+[32m+[m[32mhammer a nail, you should be using a hammer. If you want[m
+[32m+[m[32mto fix your water pipes, you’ll probably need a spanner.[m
+[32m+[m
+[32m+[m[32mYes, it’s possible to hammer in a nail using the side of the[m
+[32m+[m[32mspanner and the same programming language can be used[m
+[32m+[m[32mto solve different types of problems. The carpenter will tell[m
+[32m+[m[32myou that his favourite tool is a hammer and the plumber[m
+[32m+[m[32mwill say it’s the spanner, but it still doesn’t make it the “best[m
+[32m+[m[32mtool to fix things”.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery                                                                    12[m
+[32m+[m[32m                                                                               www.appbrewery.com[m
+[32m+[m
+[32m+[m[32m   A web developer will tell you that JavaScript is the best[m
+[32m+[m
+[32m+[m[32mLearning to code is a bit like language to learn for a beginner. A statistician will advise[m
+[32m+[m[32m   you that you’ll be best served with the R programming[m
+[32m+[m[32m going to the gym. language. But at the end of the day, all that matters is what[m
+[32m+[m[32m   you are trying to do with your tool. If you want to make iOS[m
+[32m+[m[32m   apps, then learn Swift. If you want to make websites, you’ll[m
+[32m+[m[32m   need JavaScript.[m
+[32m+[m
+[32m+[m[32m   But the good news is the core programming concepts:[m
+[32m+[m[32m   loops, conditionals, functions, etc. they’re all the same. The[m
+[32m+[m[32m   difference is mostly syntactical.[m
+[32m+[m
+[32m+[m[32m   In English, we have werewolves, in German they have[m
+[32m+[m[32m   Werwölfe. It’s still the same shirt-ripping mammal that[m
+[32m+[m[32m   comes out during a full moon, it’s just spelt differently.[m
+[32m+[m
+[32m+[m[32m   Printing to the console in Swift:[m
+[32m+[m[32m   print(“Hello Werewolves”)[m
+[32m+[m
+[32m+[m[32m   Printing to the console in Java:[m
+[32m+[m[32m   println(“Hello Werwölfe”)[m
+[32m+[m
+[32m+[m[32m   So, decide on the task that you are trying to accomplish,[m
+[32m+[m[32m   then pick the best tool for that task.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery  13[m
+[32m+[m[32m      4[m
+[32m+[m
+[32m+[m[32m                  RULE FOUR[m
+[32m+[m
+[32m+[m[32mUnderstand What[m
+[32m+[m[32m  You’re Writing[m
+[32m+[m[32m                                                                              www.appbrewery.com[m
+[32m+[m
+[32m+[m[32mI have an issue with the way[m
+[32m+[m[32m  that most programming[m
+[32m+[m[32m     tutorials are written.[m
+[32m+[m
+[32m+[m[32m   There are far too many tutorials where you see the “this is[m
+[32m+[m[32m   how you draw an owl” phenomenon.[m
+[32m+[m
+[32m+[m[32mCopyright © The App Brewery  15[m
+[32m+[m[32m                                                                               www.appbrewery.com[m
+[32m+[m
+[32m+[m[32m   It’s almost as if the programmer had good intentions and[m
+[32m+[m
+[32m+[m[32mLearning to code is a bit like started by showing you how to do everything step-by-step.[m
+[32m+[m[32m   But then, at some point, he realises that he has embarked[m
+[32m+[m[32m going to the gym. on a Sisyphean task and gives up. I’ve seen tutorials where[m
+[32m+[m[32m   the author starts with an excruciating level of detail then[m
+[32m+[m[32m   mid-way reverts to “now you simply set up a cloud[m
+[32m+[m[32m   database”. Bearing in
