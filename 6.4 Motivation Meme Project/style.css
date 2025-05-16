@@ -1,0 +1,23 @@
+#poster{
+    background: black;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+#image-style{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid white;
+}
+
+#header-title{
+    text-transform: uppercase;
+}
+
+#para-text{
+    margin-bottom: 20px;
+    padding: 0%;
+}
